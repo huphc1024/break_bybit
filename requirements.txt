@@ -1,0 +1,11 @@
+pybit
+pandas
+numpy
+matplotlib
+ta
+ccxt
+requests
+python-dotenv
+websocket-client
+aiohttp
+asyncio
