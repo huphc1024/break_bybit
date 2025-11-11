@@ -10,3 +10,4 @@ websocket-client
 aiohttp
 asyncio
 Flask
+gunicorn
