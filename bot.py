@@ -180,7 +180,7 @@ def set_sl_tp(symbol: str, sl_price: float, tp_price: float):
         logging.error("set_sl_tp error: %s", e)
 
 # ---------------- main bot loop ----------------
-def trade_loop():
+def main():
     send_telegram(f"🤖 Bot started for {SYMBOL} | {USD_PER_TRADE}$ per trade | Testnet={TESTNET}")
     open_position = None
     equity_start = get_wallet_equity()
@@ -253,4 +253,4 @@ def trade_loop():
 
 
 if __name__=="__main__":
-    trade_loop()
+    main()
